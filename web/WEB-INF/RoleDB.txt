@@ -1,0 +1,2 @@
+1|Occupied|4|east
+2|Free|2|west

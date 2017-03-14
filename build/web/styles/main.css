@@ -1,0 +1,333 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2016, 8:09:45 PM
+    Author     : aavha
+*/
+
+#head{
+    display: block;
+    height: 50px;
+    margin: 10px;
+    background-color: #e6ffe6; 
+}
+
+.head1{
+     color: #009900;
+     padding-left: 10px;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+  #login{
+    background-color: yellow;
+    display:block;
+    position:fixed;
+    width:500px;
+    height:400px;
+    
+  }  
+  
+  #common{
+      display: block;
+      width: 1000px;
+      height: 470px;
+      padding:20px;
+  }  
+.maintab{
+    
+}
+
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    float: left; /* add this */
+}
+
+
+button{
+    padding: 5px 5px 5px 5px;
+   
+}
+#foot{
+    display: block;
+    height: 20px;
+    width: 1230px;
+    text-align: center;
+    background-color: red;
+}
+#main{
+    width:1000px;
+    height:1000px;
+    display:block;
+}
+.main1 {
+    background-color: yellow;
+    display:block;
+    position:fixed;
+    width:100px;
+    height:100px;
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+}
+.color_green{
+    border-color: #00ff00;
+    border: #00ff00 3px solid;
+}
+.color_green_button{
+    background-color: #4CAF50;
+    height:30px;
+    width:30px;
+    border: 3px;
+    
+}
+
+
+   p, ul, li, div, nav
+        {
+
+            padding:0;
+            margin:0;
+        }
+
+
+        body
+        {
+            font-family:Calibri;
+        }
+
+
+        #menu {
+            overflow: auto;
+            position:relative;
+            z-index:2;
+        }
+
+
+        .parent-menu {
+            background-color: #2e2e2e;
+            min-width:200px;
+            float:left;
+        }
+
+
+        #menu ul
+        {
+            list-style-type:none;
+        }
+
+
+        #menu ul li a
+        {
+
+            padding:10px 15px;
+            display:block;
+            color:#fff;
+            text-decoration:none;
+        }
+
+
+            #menu ul li a:hover
+            {
+                background-color:#007ee9;
+            }
+
+#menu ul li:hover > ul {
+
+                left: 200px;
+
+                -webkit-transition: left 200ms ease-in;
+
+                -moz-transition: left 200ms ease-in;
+
+                -ms-transition: left 200ms ease-in;
+
+                transition: left 200ms ease-in;
+
+            }
+
+
+            #menu ul li > ul {
+
+                position: absolute;
+
+                background-color: #2e2e2e;
+
+                top: 0;
+
+                left: -200px;
+
+                min-width: 200px;
+
+                z-index: -1;
+
+                height: 100%;
+
+                -webkit-transition: left 200ms ease-in;
+
+                -moz-transition: left 200ms ease-in;
+
+                -ms-transition: left 200ms ease-in;
+
+                transition: left 200ms ease-in;
+
+            }
+
+
+            #menu ul li > ul li a:hover
+
+            {
+
+                background-color:#2e2e2e;
+
+            }
+
+    
+  .popup {
+       background-color: #4CAF50;
+    height:30px;
+    width:30px;
+    border: 3px;
+       position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+body {
+    height: 100%;
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+}
+#mydiv {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 200;
+}
+#mydiv-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+#mydiv-content {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #6089F7;
+}
+a {
+    color: #5874BF;
+    text-decoration: none;
+}
+a:hover {
+    color: #112763;
+}
+  .modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+    background: #00d9ff; 
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
